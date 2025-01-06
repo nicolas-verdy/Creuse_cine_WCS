@@ -40,10 +40,10 @@ def accueil():
     
     st.image("Image_cinema.jpg",  width= 650) 
     
-    colA, colB = st.columns(2)
+    colA, colB, col C = st.columns(3)
     with colA:
         st.image("Logo WCS.jpg",width=800) 
-    with colB:
+    with colC:
         st.image("Logo Zens.jpg",width=100) 
     st.write("   ")
     st.write("   ")
