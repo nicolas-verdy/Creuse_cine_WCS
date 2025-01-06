@@ -42,9 +42,9 @@ def accueil():
     
     colA, colB, colC = st.columns(3)
     with colA:
-        st.image("Logo WCS.jpg",width=400) 
+        st.image("Logo WCS.jpg",width=600) 
     with colC:
-        st.image("Logo Zens.jpg",width=400) 
+        st.image("Logo Zens.jpg",width=200) 
     st.write("   ")
     st.write("   ")
     st.write("   ")
