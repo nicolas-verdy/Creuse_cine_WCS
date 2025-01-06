@@ -5,21 +5,6 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.neighbors import NearestNeighbors
 
 
-def add_background():
-    background_style = '''
-    <style>
-    .stApp {
-        background-image: url("filigrane_fond.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        opacity: 0.5; /* Ajustez l'opacité pour l'effet filigrane */
-    }
-    </style>
-    '''
-    st.markdown(background_style, unsafe_allow_html=True)
-
-
 #Lecture du fichier
 data = pd.read_csv("df_nico_1.csv", sep=";")
 df= pd.DataFrame(data)
