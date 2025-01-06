@@ -70,7 +70,7 @@ def page_presentation():
     outils = [("Airtable", "Logo Airtable.jpg"), ("Scikit-Learn", "sklearn_logo.png"), ("Slack", "logo-Slack-1.webp"), ("Streamlit", "Logo streamlit.jpg"),("Python", "Logo Python-Symbole.jpg") , ("Pandas", "Pandas_logo.svg.png"), ("Canva", "Canva-Nouveau-Logo.jpg") ]   
     for col, (nom, image) in zip([col1, col2, col3, col4, col5, col6, col7], outils):
         with col:
-        st.image(image, width=100)     
+            st.image(image, width=100)     
 
 def page_etude():
     st.markdown("<h1 style='text-align: center;color:black;'>Etude de marché</h1>", unsafe_allow_html=True)
