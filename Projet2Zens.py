@@ -45,8 +45,8 @@ def accueil():
         st.image("Logo Zens.jpg",width=200) 
     
     with colC:
-        st.image("Logo Zens.jpg",width=200) 
-        st.image("Logo WCS.jpg",width=600) 
+
+    st.image("Logo WCS.jpg",width=600) 
     st.write("   ")
     st.write("   ")
     st.write("   ")
