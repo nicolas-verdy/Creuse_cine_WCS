@@ -43,6 +43,9 @@ def accueil():
     colA, colB, colC = st.columns(3)
     with colA:
         st.image("Logo WCS.jpg",width=600) 
+    with colB:
+        st.write("------")
+    
     with colC:
         st.image("Logo Zens.jpg",width=200) 
     st.write("   ")
