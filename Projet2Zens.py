@@ -54,20 +54,23 @@ def accueil():
 def page_presentation():
     st.markdown("<h1 style='text-align: center;color:black;'>Présentation du Projet</h1>", unsafe_allow_html=True)
     st.text("\n\n\n")
+    
     st.markdown(
         '<p style="font-size:20px;">Un cinéma en perte de vitesse situé dans la Creuse nous a contacté. Il a décidé de passer le cap du digital en créant un site Internet taillé pour les locaux. Il nous a demandé de créer un moteur de recommandations de films.</p>',
         unsafe_allow_html=True)
+    
     st.write("  ")   
+    
     st.markdown(
         '<h2 style="font-size: 25px;">Pour réaliser ce projet, nous avons utilisé les outils suivants :</h2>',
         unsafe_allow_html=True
     )
+    
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
     outils = [("Airtable", "Logo Airtable.jpg"), ("Scikit-Learn", "sklearn_logo.png"), ("Slack", "logo-Slack-1.webp"), ("Streamlit", "Logo streamlit.jpg"),("Python", "Logo Python-Symbole.jpg") , ("Pandas", "Pandas_logo.svg.png"), ("Canva", "Canva-Nouveau-Logo.jpg") ]   
     for col, (nom, image) in zip([col1, col2, col3, col4, col5, col6, col7], outils):
         with col:
-      
-            st.image(image, width=400)     
+        st.image(image, width=400)     
 
 def page_etude():
     st.markdown("<h1 style='text-align: center;color:black;'>Etude de marché</h1>", unsafe_allow_html=True)
@@ -76,7 +79,6 @@ def page_etude():
         '<p style="font-size:20px;">Voir la présentation GoogleSlide remise au client.</p>',
         unsafe_allow_html=True)
     st.write("  ")   
-
 
 def page_KPI():
     st.markdown("<h1 style='text-align: center;color:black;'>Présentation des KPI</h1>", unsafe_allow_html=True)
