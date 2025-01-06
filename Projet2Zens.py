@@ -266,8 +266,11 @@ st.sidebar.write(" ")
     # Choix de l'affichage : 
 affichage_sel  = st.sidebar.radio(
         "Sommaire",
-        ["Accueil", "Présentation du Projet", "Etude de Marché", "KPI", "Outil de Recommandation","Axes d'Amélioration", "Dataframe"]
+        ["Accueil", "Présentation du Projet", "Outil de Recommandation", "Dataframe"]
     )
+
+# ["Accueil", "Présentation du Projet", "Etude de Marché", "KPI", "Outil de Recommandation","Axes d'Amélioration", "Dataframe"]
+
 if affichage_sel == "Accueil":
         accueil()
         
