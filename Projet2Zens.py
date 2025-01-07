@@ -292,6 +292,7 @@ if affichage_sel == "Axes d'Amélioration":
         axes_amelioration()
   
 if affichage_sel == "Dataframe":
-       df
+    st.image("Stats_dataframe.jpg")  
+    df
 
     # lancer le code    streamlit run Projet2Zens.py
