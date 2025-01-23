@@ -177,7 +177,7 @@ def page_outil_recommandation():
     note3 = df.loc[df['original_title'] == preco_3, 'averageRating'].values[0]
 
 
-    realisateur1 = str(df.loc[df['original_title'] == preco_1, 'director'].values[0])
+    realisateur1 = df.loc[df['original_title'] == preco_1, 'director'].values[0]
     realisateur2 = df.loc[df['original_title'] == preco_2, 'director'].values[0]
     realisateur3 = df.loc[df['original_title'] == preco_3, 'director'].values[0]
 
